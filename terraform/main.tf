@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    AccountEmail              = "aws-dev-aft-member-1-pranav-test@harness.io"
+    AccountName               = "aft-member-account-1"
+    ManagedOrganizationalUnit = "AFT-Pranav"
+    SSOUserEmail              = "aws-dev-aft-member-1-pranav-test@harness.io"
+    SSOUserFirstName          = "aft-member-account-1"
+    SSOUserLastName           = "admin"
   }
 
   account_tags = {
