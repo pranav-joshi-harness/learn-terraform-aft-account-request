@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "aws-aft-pranav-test1@harness.io"
     AccountName               = "aws-aft-pranav-test1"
-    ManagedOrganizationalUnit = "ou-n9eo-zrgyomeb"
+    ManagedOrganizationalUnit = "AFT-Pranav"
     SSOUserEmail              = "aws-aft-pranav-test1@harness.io"
     SSOUserFirstName          = "aws-aft-pranav-test1"
     SSOUserLastName           = "adminuser"
