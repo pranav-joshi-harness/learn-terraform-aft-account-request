@@ -7,7 +7,7 @@ module "sandbox" {
     ManagedOrganizationalUnit = "ou-n9eo-zrgyomeb"
     SSOUserEmail              = "aws-aft-pranav-test1@harness.io"
     SSOUserFirstName          = "aws-aft-pranav-test1"
-    SSOUserLastName           = "admin"
+    SSOUserLastName           = "adminuser"
   }
 
   account_tags = {
